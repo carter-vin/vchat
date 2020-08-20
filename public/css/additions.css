@@ -9,6 +9,7 @@
     border: none;
     cursor: pointer;
     opacity: 60%;
+    z-index: 3;
 }
 
 /* Dropdown button on hover & focus */
