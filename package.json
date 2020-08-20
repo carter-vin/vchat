@@ -1,0 +1,39 @@
+{
+  "name": "videochat",
+  "version": "1.0.0",
+  "description": "Videochat application",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sivaism/videochat.git"
+  },
+  "keywords": [
+    "video",
+    "chat",
+    "flat"
+  ],
+  "author": "Siva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sivaism/videochat/issues"
+  },
+  "homepage": "https://github.com/sivaism/videochat#readme",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.7",
+    "@types/socket.io": "^2.1.11",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
